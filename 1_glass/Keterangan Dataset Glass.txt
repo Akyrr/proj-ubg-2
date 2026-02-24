@@ -1,0 +1,53 @@
+Keterangan Fitur:
+1. Id Number
+Nomor identitas data dari 1 sampai 214.
+
+2. RI (Refractive Index)
+Indeks bias kaca, yaitu ukuran seberapa besar cahaya dibelokkan ketika melewati material kaca.
+
+3. Na (Sodium)
+Kandungan Natrium dalam kaca.
+Satuan yang digunakan adalah weight percent (persentase berat dalam bentuk oksida).
+
+4. Mg (Magnesium)
+Kandungan Magnesium dalam kaca (dalam persentase berat oksida).
+
+5. Al (Aluminum)
+Kandungan Aluminium dalam kaca (dalam persentase berat oksida).
+
+6. Si (Silicon)
+Kandungan Silikon dalam kaca (dalam persentase berat oksida).
+
+7. K (Potassium)
+Kandungan Kalium dalam kaca (dalam persentase berat oksida).
+
+8. Ca (Calcium)
+Kandungan Kalsium dalam kaca (dalam persentase berat oksida).
+
+9. Ba (Barium)
+Kandungan Barium dalam kaca (dalam persentase berat oksida).
+
+10. Fe (Iron)
+Kandungan Besi dalam kaca (dalam persentase berat oksida).
+
+Keterangan Label:
+1. Building Windows (Float Processed)
+Kaca jendela bangunan yang diproses menggunakan metode float.
+
+2. Building Windows (Non-Float Processed)
+Kaca jendela bangunan yang tidak diproses dengan metode float.
+
+3. Vehicle Windows (Float Processed)
+Kaca jendela kendaraan yang diproses dengan metode float.
+
+4. Vehicle Windows (Non-Float Processed)
+Kaca jendela kendaraan non-float (tidak tersedia dalam dataset ini).
+
+5. Containers
+Kaca untuk wadah seperti botol atau toples.
+
+6. Tableware
+Kaca untuk peralatan makan seperti gelas atau piring.
+
+7. Headlamps
+Kaca untuk lampu kendaraan.
