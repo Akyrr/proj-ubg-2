@@ -1,0 +1,25 @@
+Studi Kasus:
+
+Sebuah perusahaan pembiayaan perumahan bernama Dream Housing Finance bergerak di bidang pemberian kredit atau pinjaman rumah kepada masyarakat. Perusahaan ini melayani berbagai wilayah, mulai dari daerah perkotaan (urban), semi-perkotaan (semi-urban), hingga pedesaan (rural).
+Dalam proses bisnisnya, calon nasabah terlebih dahulu mengajukan permohonan pinjaman rumah melalui formulir online. Setelah itu, pihak perusahaan melakukan verifikasi dan analisis untuk menentukan apakah nasabah tersebut layak (eligible) atau tidak layak (not eligible) menerima pinjaman.
+Saat ini, proses penilaian kelayakan masih dilakukan secara manual sehingga:
+- memakan waktu lama,
+- kurang efisien,
+- dan berisiko terjadi human error.
+Oleh karena itu, perusahaan ingin mengotomatisasi proses penentuan kelayakan pinjaman secara real-time dengan memanfaatkan teknik Machine Learning. Sistem ini diharapkan mampu memprediksi status persetujuan pinjaman berdasarkan data yang diisi oleh nasabah pada saat pendaftaran.
+
+Data yang tersedia:
+
+Loan_ID : ID unik untuk setiap pengajuan pinjaman
+Gender : Jenis kelamin pemohon (Male/Female)
+Married : Status pernikahan pemohon (Y = Menikah, N = Belum menikah)
+Dependents : Jumlah tanggungan keluarga pemohon
+Education : Tingkat pendidikan terakhir (Graduate/Under Graduate)
+Self_Employed : Status pekerjaan mandiri/wiraswasta (Y/N)
+ApplicantIncome : Pendapatan utama pemohon
+CoapplicantIncome : Pendapatan tambahan dari pasangan/penjamin
+LoanAmount : Jumlah pinjaman yang diajukan (dalam ribuan)
+Loan_Amount_Term : Jangka waktu pelunasan pinjaman (bulan)
+Credit_History : Riwayat kredit pemohon (1 = baik/lancar, 0 = buruk)
+Property_Area : Lokasi properti (Urban/Semi-Urban/Rural)
+Loan_Status : Status persetujuan pinjaman (Y = disetujui, N = ditolak)
