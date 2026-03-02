@@ -1,0 +1,30 @@
+Latar Belakang:
+Dataset ini berisi informasi karakter-karakter dari serial Game of Thrones, termasuk atribut personal, hubungan keluarga, serta status hidup atau mati mereka. Data mencakup berbagai aspek seperti identitas karakter, garis keturunan, afiliasi rumah, status perkawinan, popularitas, serta keterlibatan karakter dalam buku-buku yang diterbitkan. Dataset ini cocok digunakan untuk analisis karakter, pemodelan prediktif, klasifikasi status hidup, analisis jaringan keluarga, atau eksperimen machine learning seperti decision tree untuk prediksi atribut tertentu (misal prediksi apakah karakter masih hidup).
+
+Keterangan Kolom:
+S.No: Nomor urut karakter dalam dataset.
+plod: ID unik atau kode karakter.
+name: Nama karakter.
+title: Gelar atau julukan karakter (contoh: “King in the North”).
+gender: Jenis kelamin karakter (male/female).
+culture: Latar budaya atau etnis karakter (contoh: Westerosi, Dothraki).
+dateOfBirth: Tahun atau tanggal lahir karakter (jika diketahui).
+DateOfdeath: Tahun atau tanggal kematian karakter (jika diketahui).
+mother: Nama ibu karakter.
+father: Nama ayah karakter.
+heir: Nama pewaris karakter (jika ada).
+house: Afiliasi rumah atau keluarga (contoh: Stark, Lannister).
+spouse: Nama pasangan karakter (jika menikah).
+book1 – book5: Indikator kehadiran karakter di buku ke-1 hingga ke-5.
+isAliveMother: Status hidup/mati ibu karakter (True/False).
+isAliveFather: Status hidup/mati ayah karakter.
+isAliveHeir: Status hidup/mati pewaris karakter.
+isAliveSpouse: Status hidup/mati pasangan karakter.
+isMarried: Status perkawinan karakter (True/False).
+isNoble: Apakah karakter berasal dari keluarga bangsawan (True/False).
+age: Umur karakter (jika diketahui).
+numDeadRelations: Jumlah kerabat yang telah meninggal.
+boolDeadRelations: Apakah karakter memiliki kerabat yang meninggal (True/False).
+isPopular: Apakah karakter termasuk populer dalam cerita (True/False).
+popularity: Skor popularitas karakter (numerik).
+isAlive: Status hidup karakter (True/False), kolom target untuk prediksi dengan decision tree.
