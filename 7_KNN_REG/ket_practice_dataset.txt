@@ -1,0 +1,8 @@
+Dataset ini merupakan dataset sintetis yang dibuat khusus untuk keperluan latihan dan eksperimen dalam pemodelan regresi. Dataset terdiri dari 10.000 baris data dengan 6 fitur numerik (a, b, c, d, e, f) serta satu variabel target. Nilai target dibentuk dari kombinasi beberapa pola matematis, yaitu hubungan linear, kuadratik, kubik, serta interaksi antar fitur.
+
+Meskipun dataset ini tidak merepresentasikan fenomena dunia nyata tertentu, struktur datanya sangat cocok digunakan untuk memahami dan menguji performa berbagai algoritma regresi seperti Linear Regression, KNN Regression, Decision Tree Regression, maupun metode machine learning lainnya. Dataset ini membantu dalam mempelajari bagaimana model menangani hubungan non-linear dan kompleks antar variabel.
+
+
+Keterangan Kolom
+a–f : Fitur numerik (variabel independen/input) yang digunakan sebagai prediktor.
+target (y) : Variabel dependen/output yang ingin diprediksi, dibentuk dari kombinasi efek linear, kuadratik, kubik, dan interaksi antar fitur.
