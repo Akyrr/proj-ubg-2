@@ -1,0 +1,11 @@
+Latar Belakang
+Dataset ini berisi informasi mengenai penawaran produk dari berbagai merchant pada suatu platform marketplace. Data mencakup identitas produk, identitas merchant, serta pengelompokan produk ke dalam cluster dan kategori tertentu. Informasi tersebut digunakan untuk mendukung berbagai tugas analisis data seperti klasifikasi produk, clustering teks pendek, dan entity matching antar produk yang serupa dari merchant yang berbeda.
+
+Keterangan Kolom
+- Product ID: ID unik yang digunakan untuk mengidentifikasi setiap produk dalam dataset.
+- Product Title: Judul atau nama produk yang ditawarkan oleh merchant. Kolom ini berupa data teks yang telah melalui proses preprocessing seperti case folding dan penghapusan tanda baca.
+- Merchant ID: ID unik yang merepresentasikan merchant atau penjual yang menawarkan produk tersebut.
+- Cluster ID: ID numerik yang menunjukkan kelompok cluster dari produk. Cluster ini biasanya digunakan untuk mengelompokkan produk yang memiliki kemiripan tertentu.
+- Cluster Label: Label kategori dalam bentuk teks yang menjelaskan cluster dari produk tersebut.
+- Category ID: ID numerik yang menunjukkan kategori produk secara spesifik.
+- Category Label: Label kategori produk dalam bentuk teks yang menjelaskan jenis atau kelompok produk tersebut.
