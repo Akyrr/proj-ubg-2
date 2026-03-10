@@ -1,0 +1,17 @@
+Latar Belakang:
+Dataset ini dikumpulkan untuk menganalisis kekuatan sinyal Bluetooth (RSSI – Received Signal Strength Indicator) dalam menentukan posisi atau status lokasi seseorang di sekitar pintu masuk sebuah bangunan. Pengumpulan data dilakukan dengan bantuan mahasiswa yang berperan sebagai partisipan dalam eksperimen.
+Sebanyak 12 mahasiswa dibagi menjadi tiga kelompok, di mana setiap mahasiswa membawa sebuah perangkat iTAG yang memancarkan sinyal Bluetooth. Para partisipan berjalan di dalam area eksperimen dengan perangkat iTAG yang aktif.
+Eksperimen dilakukan di sebuah koridor panjang berukuran 18,35 meter × 3 meter. Area tersebut kemudian dibagi menjadi tiga zona lokasi yang merepresentasikan kondisi seseorang terhadap pintu masuk bangunan, yaitu:
+1. Inside – berada di dalam bangunan
+2. Vestibule – berada di area transisi (lorong masuk)
+3. Outside – berada di luar bangunan
+Untuk menerima sinyal Bluetooth dari perangkat iTAG, digunakan dua smartphone Sony Xperia XA1 sebagai receiver. Kedua smartphone ini ditempatkan di awal dan akhir area vestibule, yang memiliki panjang 2,35 meter.
+Selama eksperimen berlangsung, kedua smartphone merekam nilai RSSI dari perangkat iTAG yang dibawa partisipan. Proses pengumpulan data berlangsung selama 20 menit.
+Dataset ini bertujuan untuk mempelajari bagaimana perubahan kekuatan sinyal RSSI dapat digunakan untuk mengklasifikasikan posisi seseorang relatif terhadap pintu masuk bangunan.
+
+Keterangan Kolom:
+- name: Identitas unik perangkat iTAG yang digunakan oleh partisipan (biasanya berupa alamat MAC Bluetooth).
+- locationStatus: Label lokasi dari perangkat saat data direkam. Nilainya dapat berupa INSIDE, VESTIBULE, atau OUTSIDE.
+- timestamp: Waktu saat data RSSI direkam dalam format Unix timestamp (milliseconds).
+- rssiOne: Nilai RSSI yang diterima oleh smartphone pertama yang ditempatkan di salah satu sisi area vestibule.
+- rssiTwo: Nilai RSSI yang diterima oleh smartphone kedua yang ditempatkan di sisi lainnya dari area vestibule.
